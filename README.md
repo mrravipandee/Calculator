@@ -8,6 +8,8 @@ Gradle Script 'Module :app'.
 implementation 'com.faendir.rhino:rhino-android:1.5.2'
 
 import 2 packages in MainActivity, where your home screen present.
+
 import org.mozilla.javascript.Context;
+
 import org.mozilla.javascript.Scriptable;
 
