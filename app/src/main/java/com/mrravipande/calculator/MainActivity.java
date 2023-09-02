@@ -17,25 +17,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//      hide actionbar
+        getSupportActionBar().hide();
 
-        result = findViewById(R.id.answer);
-        //b1 = findViewById(R.id.btn1); replace in assignBtn() set on listener.
-        assignBtn(b1, R.id.btn1);
-        assignBtn(b2, R.id.btn2);
-        assignBtn(b3, R.id.btn3);
-        assignBtn(b4, R.id.btn4);
-        assignBtn(b5, R.id.btn5);
-        assignBtn(b6, R.id.btn6);
-        assignBtn(b7, R.id.btn7);
-        assignBtn(b8, R.id.btn8);
-        assignBtn(b9, R.id.btn9);
-        assignBtn(bZero, R.id.btnZero);
-        assignBtn(bMinus, R.id.btnMinus);
-        assignBtn(bPlus, R.id.btnPlus);
-        assignBtn(bDiv, R.id.btnDiv);
-        assignBtn(bMod, R.id.btnMod);
-        assignBtn(bMulti, R.id.btnMulti);
-        assignBtn(bEqual, R.id.btnEqual);
+
+//        result = findViewById(R.id.answer);
+//        //b1 = findViewById(R.id.btn1); replace in assignBtn() set on listener.
+//        assignBtn(b1, R.id.btn1);
+//        assignBtn(b2, R.id.btn2);
+//        assignBtn(b3, R.id.btn3);
+//        assignBtn(b4, R.id.btn4);
+//        assignBtn(b5, R.id.btn5);
+//        assignBtn(b6, R.id.btn6);
+//        assignBtn(b7, R.id.btn7);
+//        assignBtn(b8, R.id.btn8);
+//        assignBtn(b9, R.id.btn9);
+//        assignBtn(bZero, R.id.btnZero);
+//        assignBtn(bMinus, R.id.btnMinus);
+//        assignBtn(bPlus, R.id.btnPlus);
+//        assignBtn(bDiv, R.id.btnDiv);
+//        assignBtn(bMod, R.id.btnMod);
+//        assignBtn(bMulti, R.id.btnMulti);
+//        assignBtn(bEqual, R.id.btnEqual);
     }
 
     void assignBtn(Button btn, int id) {
